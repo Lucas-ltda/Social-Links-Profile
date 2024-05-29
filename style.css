@@ -5,10 +5,7 @@
     
 }
 
-@font-face {
-    font-family: [new-font];
-    src: url([https://fonts.google.com/specimen/Inter]);
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body{
     background-color: hsl(0, 0%, 8%);
@@ -26,8 +23,9 @@ body{
     flex-direction: column;
     align-items: center;
     width: 350px;
-    height: 500px;
+    height: 550px;
     border-radius: 7px;
+    padding: 20px 0px;
 
 }
 
@@ -39,17 +37,25 @@ img{
 h3{
     padding: 5px;
     font-size: 30px;
-
     color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
 }
 
 #descricao{
     color:  hsl(75, 94%, 57%);
+    padding-bottom: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
 }
 
 .container > p{
     color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding-bottom: 15px;
 }
+
 p{
     padding: 5px;
 }
@@ -74,4 +80,12 @@ a{
 .links > a{
     color: white;
     letter-spacing: 3px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.links :hover{
+    font-size: 20px;
+    transition: 1s;
 }
