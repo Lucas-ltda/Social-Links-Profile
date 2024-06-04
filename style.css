@@ -32,9 +32,10 @@ body{
 img{
     width: 150px;
     padding: 10px;
+    
 }
 
-.img-links{
+.insta-logo{
     width: 35px;
 }
 
@@ -79,6 +80,7 @@ a{
     align-items: center;
     justify-content: center;
     
+    
 } 
 
 .links > a{
@@ -87,17 +89,18 @@ a{
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
+    position: absolute;
+    
 }
 
 #insta-logo{
     width: 25px;
+    position: relative;
+    right: 38%;
 }
 
-#GitHub-logo{
-    width: 25px;
-}
-
-.link :hover{
-    font-size: 20px;
+.section > a, img :hover{
+    font-size: 25px;
     transition: 1s;
 }
+
