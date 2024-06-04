@@ -89,7 +89,15 @@ a{
     font-size: 14px;
 }
 
-.links :hover{
+#insta-logo{
+    width: 25px;
+}
+
+#GitHub-logo{
+    width: 25px;
+}
+
+.link :hover{
     font-size: 20px;
     transition: 1s;
 }
